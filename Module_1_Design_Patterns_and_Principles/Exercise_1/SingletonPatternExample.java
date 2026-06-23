@@ -15,19 +15,19 @@ public class SingletonPatternExample {
 }
 
 class Logger{
-        private static Logger instance;
+    private static Logger instance;
 
-        private Logger(){
-            System.out.println("Instance created!!");
-        }
-
-        public static Logger getInstance(){
-            if (instance == null){
-                instance = new Logger();
-            } else {
-                System.out.println("Instance is already created");
-            }
-
-            return instance;
-        }
+    private Logger(){
+        System.out.println("Instance created!!");
     }
+
+    public static Logger getInstance(){
+        if (instance == null){
+            instance = new Logger();
+        } else {
+            System.out.println("Instance is already created");
+        }
+
+        return instance;
+    }
+}
