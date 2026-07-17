@@ -1,0 +1,18 @@
+package org.example.service;
+
+import org.example.repository.BookRepository;
+
+public class BookService {
+
+    private BookRepository repository;
+
+    public void setRepository(BookRepository repository) {
+        this.repository = repository;
+    }
+
+    public void display() {
+        System.out.println("Book Service Called");
+        repository.display();
+    }
+
+}
