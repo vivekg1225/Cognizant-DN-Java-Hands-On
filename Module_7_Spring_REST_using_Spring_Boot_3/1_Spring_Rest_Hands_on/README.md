@@ -12,7 +12,7 @@ SimpleDateFormat with the pattern ‘dd/MM/yyyy’ is created in multiple places
 
 ## 2. Spring Rest Handson
 
-### Hello World RESTful Web Service
+- ### Hello World RESTful Web Service
 
 Write a REST service in the spring learn application created earlier, that returns the text "Hello World!!" using Spring Web Framework. Refer details below:
 
@@ -26,7 +26,7 @@ Sample Request: http://localhost:8083/hello
 Sample Response: Hello World!! 
 
 
-### REST - Country Web Service
+- ### REST - Country Web Service
 
 Write a REST service that returns India country details in the earlier created spring learn application.
 
@@ -43,7 +43,7 @@ Sample Response:
   "name": "India"
 }
 
-### REST - Get all countries
+- ### REST - Get all countries
 
 Write a REST service that returns all the countries.
 
@@ -61,7 +61,7 @@ Sample Response:
   { "code": "DE", "name": "Germany"}
 ]
 
-### REST - Get country based on country code
+- ### REST - Get country based on country code
 
 Write a REST service that returns a specific country based on country code. The country code should be case insensitive.
 
